@@ -46,9 +46,10 @@ AumentoCuota:=0.0
 //fmt.Println(nombres[0:final(excluyen)])
 //mes[0:2]
 */
+switch i {
         case 1:
           //diferentes formas de mandar a imprimir
-        // fmt.Println(mes[i-1]+fmt.Sprintf("        %5.3f",Cuota))
+         fmt.Println(mes[i-1]+fmt.Sprintf("        %5.3f",Cuota))
           //  fmt.Println(mes[0] ,"cuota" ,fmt.Sprintf("     %5.3f",AumentoCuota))
           // fmt.Println(mes[0:1] ,fmt.Sprintf("     %5.3f",AumentoCuota))
           // fmt.Println("Enero "+fmt.Sprintf("         %5.3f",AumentoCuota))
